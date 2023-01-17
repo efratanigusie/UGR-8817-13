@@ -1,0 +1,59 @@
+
+.paragraph_table{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+table{
+    width: 300px;
+    height: 350px;
+    margin-left: 10px;
+    border-collapse: collapse;
+    background: linear-gradient(rgb(37,88,163),rgba(73,77,82,0.5));
+    color: white;
+    margin-right: 80px;
+
+}
+th,td{
+    border:2px solid #fbe8f1;
+}
+.box{
+    margin-top: 20px;
+    border: 1px solid rgba(73, 82, 75, 0.5);
+    width: 80%;
+    margin-left: 9%;
+    
+}
+h1{
+    text-align: center;
+}
+#paragraph{
+    margin-left: 20px;
+}
+.para{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+@media  only screen and (max-width: 600px){
+    h1{
+        font-size: small;
+
+    }
+    #paragraph{
+        margin-left: 3px;
+
+    }
+    .para{
+        font-size: smaller;
+    }
+    .paragraph_table{
+        display: flex;
+        
+        flex-direction:     column;
+    }
+ }      
+
+
+

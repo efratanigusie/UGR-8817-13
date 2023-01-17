@@ -1,0 +1,158 @@
+
+
+
+h1{
+    font-size: 30px;
+    font-weight: 10px;
+    font-family: Verdana;
+    text-align: center;
+    text-decoration: wavy;   
+    text-transform: uppercase;
+    text-shadow: 5px;
+    font-style: italic;
+    text-emphasis: none;
+    color:black;
+    
+    
+} 
+
+.main-scroll-div{
+    
+    margin-top: 150px;
+    width: 78%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .child{
+    min-width: 600px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid  rgb(18, 19, 56);
+    overflow: hidden;
+ }
+
+ .child-img{
+    width: 50%;
+    height: 50%;
+ }
+
+.text{
+    border: 1px black;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.detail{
+    
+    width: 70%;
+    height: 50%;
+
+}
+.collect{
+    display: grid;
+    grid-template-rows: repeat(3);
+    justify-content: space-evenly;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+#first{
+    margin-left: 15px;
+    margin-right: 20px;
+
+}
+#A{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+
+.first{
+    float: left;
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.core2{
+    
+    border: 1px solid black;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+ .scroll-images{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,fr);
+    gap: 3px;
+    border: 1px solid rgb(166, 255, 0);
+    max-width: 73%;
+    margin-left: 10px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    
+}
+.child_img{
+    width: 150px;
+    height: 250px;
+}
+
+ 
+ #one{
+    font-size: small;
+ }
+ #two2{
+    font-size: small;
+ }
+ .textanimation{
+    
+    width: 20%;
+    height: 30%;
+ }
+ ul,li{
+    font-size: small;
+    font-style: italic;
+ }
+ @media  only screen and (max-width: 500px){
+    h1{
+        font-size: small;
+
+    }
+    .main-scroll-div{
+        display: block;
+        
+         width: 50%;
+        margin-left: 20%;
+ }
+    .scroll-images{
+       width: 30%;
+       display: block;
+       box-shadow: none;
+    }
+    .child-img{
+        width: 20px;
+        height: 10px;
+    
+        padding-bottom: 40px;
+    }
+    
+    .text{
+        font-size: small;
+    }
+    .core2{
+        width: 90%;
+    }
+}
+
+
+
+
+
+

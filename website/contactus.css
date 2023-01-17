@@ -1,0 +1,121 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+
+.contact-form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    width: 300px;
+    border: 1px solid rgb(75, 68, 68);
+}
+.wrapper{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.text-box{
+    font-size: medium;
+    justify-content: center;
+}
+
+
+.contact_flex{
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 2px;
+    width: 50%;
+    margin-left: 20%;
+
+}
+.contact{
+    border: 1px red;
+    display: flex;
+    flex-direction: row;
+}
+.img2{
+    
+    margin-left: 5%;
+
+}
+.img1{
+    margin-left: 4%;
+}
+.tel{
+    margin-right: 20%;
+    
+}
+.contact_taxt{
+    margin-right: 3%;
+}
+
+h1,h2,h3,p{
+
+    font-size: medium;
+}
+.form-control.success input .form-control.success textarea{
+    border-color: greenyellow;
+}
+.form-control.error input, .form-control.error textarea{
+    border-color:red ;
+}
+.form-control .error{
+    color:red;
+    font-size: 9px;
+    height: 13px;
+
+}
+.success-message{
+    border: 2px solid green;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 500px){
+    img-box{
+        width:100px;
+        margin-right: 30px; 
+        height:100px ;
+       }
+    .text-box{
+        font-size: small;
+       }
+    #img-b{
+        width: 90%;
+        margin-right: 40px;
+       }
+    .contact-media{
+        
+        margin-right: 60px;
+    }
+    .contact-form{
+        width: 100px;
+    }
+    #username-input{
+        width: 70px;
+    }
+    #phone-input{
+        width: 70px;
+    }
+    #email-input{
+        width: 70px;
+    }
+    #message-input{
+        width: 70px;
+    }
+       
+}
+    
+
+
+
+
+
+
+    

@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+h1{
+    text-align: center;
+}
+.table{
+    width: 450px;
+    height: 350px;
+    margin-left: 10px;
+    border-collapse: collapse;
+    background: linear-gradient(rgb(37,88,163),rgba(73,77,82,0.5));
+    color: white;
+}
+th,td{
+    border:2px solid #e8f0fb;
+}
+.table-disc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+@media  only screen and (max-width: 500px){
+    .table{
+        width: 100px;
+        margin-right: 90px;
+    } 
+    h1{
+        font-size: smaller;
+    }
+
+
+
+     
+}  
+
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>    
+    <title>Contact us PAGE</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="header&footer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA- Compatible" content="IEedge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+   </head>
+  <body>
+    <header class="header" > 
+      <div class="header_main"> 
+        <img  class ="header_logo" src="images\logo.png" alt="the image of large text">
+        <a href="index.html"  class="active">Mainpage</a>
+        <label for="input-t" class="header_search">search:</label>
+        <input type="text" placeholder="search here" id="header_input-t">
+        <img src="images\search icon.png" alt="search icon" id="header_im2" >  
+      </div>
+      <nav  class="topnav">   
+          <a href="Home.html" class="active">Homepage</a></button>
+
+          <a href="Aboutus.html" class="active">Aboutus</a></button>
+
+          <a href="Contactus.html" class="active">Contactus</a></button>
+
+          <a href="Service.html" class="active">Service</a></button>          
+          <a href="Test.html" class="active">Test</a></button>
+      </nav>
+    </header>
+    <div  class="wrapper">
+      <div class="text-box" >
+        <p>ALWAYS WITHIN YOUR REACH</p>
+        <p>ALWAYS TO KEEP YOUR HEALTH</p>
+        <p>TO IMPROVE YOUR KNWOLAGE</p>
+        <p>stay with health packages</p>
+      </div>
+      <div class="img-box">
+        <img src="images\alert.jpg" alt="nurse and doctor"  width="400px" height="150px" id="img-b">
+      </div>
+    </div>
+    <div class="contact" >
+      <div class="contact_media " >
+        <div class="contact_flex">
+          <div class="img1">
+            <img src="images\address book.png" alt="book address" width="50px" height="50px">
+          </div>
+          <div >
+            <h1>P.O. Box: </h1>
+            <p>165, ALERT CENTER Addis Ababa</p>
+          </div>
+        </div>
+        <div class="contact_flex">
+          <div class="img2" >
+            <img src="images\call.png" alt="telephone"  width="50px" height="50px">
+          </div>
+          <div class="tel" >
+            <h2>Tel : </h2>
+            <p>042633130</p>
+          </div>
+        </div>
+        <div class="contact_flex">
+          <div class="img3" >
+            <img src="images\ema.png" alt="email" width="50px" height="50px">
+          </div>
+          <div class="contact_taxt" >
+            <h2>Email:</h2>
+            <p>info@healthchecks.com</p>
+          </div>
+        </div>
+        <div class="contact_flex">
+          <div class="img4">
+            <img src="images\mobile.jpg" alt="mobile-phone" width="50px" height="50px">
+          </div>
+          <div >
+            <h4>phone:</h4>
+            <p>+251 11 348 1361</p>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form"   id="form">
+        <h2 id="for-form">For queries / feedback, please use the form below</h2>
+          <div class="form-control">
+            <label title="Input for Site Search" for="feild-1">your name:</label>
+            <input type="text" title="Input for Site Search"  placeholder="your name" id="username-input" required>
+            <div class="error"></div>
+          </div> 
+          <div class="form-control">
+            <label for="email"> your email:</label>
+            <input type="text" id="email-input" placeholder="your Email" required>
+            <div class="error"></div>
+          </div>
+          <div class="form-control">
+            <label for="phone"> your phone:</label>
+            <input type="text" id="phone-input" placeholder="your phone " required>
+            <div class="error"></div>
+          </div>  
+          <div class="form-control">
+            <label for="message">for addition:
+            <textarea type="textarea" id="message-input" placeholder="message" required></textarea>
+            <div class="error"></div>
+          </div>
+          <button type="submit" class="submit-btn" id ="submit-btn" value="submit"  >submit</button>
+          <div id="success-message"></div>
+          </div> 
+        </form>
+    </div>
+    <hr>
+    <footer class="footer" >
+      <div class="footer_first" >
+        <h3>FOR more information</h3>
+        <button id="footer_fb"><a href="https://www.facebook/healthchecks360/"><img  class="footer_facebook"
+          src="images\fb.icon.jpg" alt="icon of facebook" width="100px" height="100px"></a></button><br>
+        <br>
+        <button id="footer_tw"><a href="https://www.twitter/healthchecks360/"><img class="footer_twitter" src="images\twe.png" alt="icon of twitter" width="100px" height="100px"></a></button><br>
+        <br>
+        <button id="footer_insta"><a href="https://www.instagram/healthchecks360/"><img class="footer_instagram" src="images\insta.png" alt="icon of instagram" width="100px" height="100px"></a></button><br>
+      </div>
+      <div class="footer_sec" >
+        <h3>HEALTHCHECK FOR MYLIFE</h3>
+        <div class="footer_only-button">
+            <a href="Home.html">Homepage</a><br>
+            <a href="Aboutus.html">Aboutus</a><br>
+           <a href="Service.html">Service</a><br>
+        </div>             
+      </div>
+      <div class="footer_three">
+        <h2 id="footer_uni">@copyright , addis ababa Ethiopia</h2>
+      </div>
+    </footer>
+  <script src="contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-size: 50px;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: wavy;   
+    text-transform: uppercase;
+    text-shadow: 1px;
+    font-style: italic;
+    text-emphasis: none;
+    color: rgb(49, 47, 47);   
+    
+} 
+
+audio{
+    width: 35%;
+    height: 100px;
+}
+.child-v{
+    height: 20px;
+    width: 20px;
+}
+p{
+    text-align: left;
+    font-style: normal;
+    font-size: small;
+}
+h2{
+    text-align: center;
+    font-style: normal;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(49, 47, 47);
+
+} 
+
+ .main-scroll-div{
+    width: 65%;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ } 
+ 
+.scroll-images{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,fr);
+    gap: 10px;
+
+    max-width: 30%;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    margin-top: 80px;
+}
+.scroll-images img{
+    width: 150px;
+    height: 200px;
+}
+.icon1{
+   margin-top: 100px;
+   margin-left: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.icon{
+    margin-top: 100px;
+    font-size: 10px;
+    margin-right: 2px;
+    width: 20%;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+#h{
+    font-size: small;
+    background-color: rgb(11, 30, 85);
+    width: 90px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+
+.whole_vedio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1px;
+
+
+
+}
+
+
+.main-v{
+    height: 50%;
+    width: 300px;
+    
+}
+.paragraph{
+    margin-left: 20px;
+    margin-top: 5px;
+    word-spacing: 0px;
+}
+#one{
+    font-style: italic;
+    font-size: 18px;
+    
+    color: rgb(49,47, 47);
+}
+#two{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(49, 47, 47);
+  
+}
+
+#three{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(49, 47, 47);
+   
+}
+#four{
+    font-style: italic;
+    font-size: 18px;
+    color:  rgb(49, 47, 47);
+   
+}
+#five{
+    font-style: italic;
+
+    font-size: 18px;
+    color:  rgb(49, 47, 47);
+   
+}
+#six{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(49, 47, 47);
+   
+}
+#seven{
+    font-style: italic;
+    font-size: 18px;
+    color:rgb(49, 47, 47);
+    
+   
+}
+#eight{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(49, 47, 47);
+   
+}
+.pre{
+    border: 1px solid white;
+    
+}
+
+@media   only screen and (max-width: 500px){
+    h1{
+          font-size: small;
+    }
+    .main-scroll-div{
+       display: block;
+       
+        width: 60%;
+       margin-left: 20%;
+
+    }
+    .scroll-images{
+        width: 30%;
+        display: block;
+        box-shadow: none;
+    }
+    .child-img{
+        width: 200px;
+        height: 100px;
+    
+        padding-bottom: 40px;
+
+    }
+    
+    
+    
+    h2{
+        font-size: small;
+    }
+    .whole_vedio{
+        display: block;
+        padding-bottom:10px  ;
+    }
+    p{
+        font-size: small;
+    }   
+}
+@media only screen and (max-width:310px){
+    .main-v{
+        
+        height: 50%;
+        max-width:200px;
+    }
+             
+}
+
